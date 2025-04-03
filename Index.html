@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>D. Siva Kumar</h1>
+        <p>Student | Computer Science Enthusiast</p>
+    </header>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 8778300328</p>
+        <p>Email: <a href="mailto:sivasharp320@gmail.com">sivasharp320@gmail.com</a></p>
+    </section>
+    <section id="profile">
+        <h2>Profile</h2>
+        <p>Siva Kumar is a curious and dedicated student with a passion for computer science. Always eager to explore new technologies, he thrives as a good learner, constantly seeking to develop skills and deepen knowledge in programming and technology-driven projects.</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Sc (Computer Science)</strong> | University | 2023-2026</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Active Listening & Collaboration</li>
+            <li>Technical Proficiency in Programming</li>
+            <li>Problem-Solving in Software Development</li>
+            <li>Event Coordination & Leadership</li>
+        </ul>
+    </section>
+    <section id="awards">
+        <h2>Awards & Certifications</h2>
+        <ul>
+            <li>Code Hackathon</li>
+            <li>English Communication</li>
+        </ul>
+    </section>
+    <section id="leadership">
+        <h2>Leadership</h2>
+        <ul>
+            <li>Computer Science Department Secretary (Second Year) - Organized and conducted programs and led cultural teams.</li>
+            <li>System In-charge & Coordinator - Actively contributed to social service initiatives and community development projects.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Siva Kumar. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const sections = document.querySelectorAll("section");
+            sections.forEach(section => {
+                section.addEventListener("mouseover", function() {
+                    section.style.backgroundColor = "#e0f7fa";
+                });
+                section.addEventListener("mouseout", function() {
+                    section.style.backgroundColor = "white";
+                });
+            });
+        });
+    </script>
+</body>
+      </html>
